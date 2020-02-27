@@ -59,7 +59,7 @@ Starting with `level-1`, for each level:
 necessary.  You are allowed to use the scientific method.  Your approaches are
 allowed to be creative.
 5. If you run out of approaches and are dumbfounded for more than 5 minutes, ask students near you for approaches to try.
-6. Run `ruby sudoku.rb` and make sure the game plays like the master version. If the game works after two turns, you're done!
+6. Run `ruby sudoku.rb` and make sure the game plays like the master version. If the game works after two turns, you're done!git
 7. Add and commit your change once the code works.  **Don't push**.  Reference [git-workflow][git-workflow] if you need it (especially the "Working" section).
 
 Check out the `final-level` and `super-evil-level` at the end.
