@@ -1,3 +1,5 @@
+
+
 class Board
   def self.empty_grid
     Array.new(9) do
@@ -73,7 +75,7 @@ class Board
 
     tiles
   end
-
+# ----------
   def squares
     (0..8).to_a.map { |i| square(i) }
   end
@@ -81,6 +83,8 @@ class Board
   private
   attr_reader :grid
 end
+
+require "colorize"
 
 class Tile
   attr_reader :value
@@ -109,6 +113,7 @@ class Tile
       @value = new_value
     end
   end
+end
 
 class SudokuGame
   def self.from_file(filename)
